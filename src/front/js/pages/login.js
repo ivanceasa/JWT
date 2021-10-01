@@ -21,7 +21,7 @@ export const Login = () => {
 		<div className="text-center mt-5">
 			<h1>Login</h1>
 			{store.token && store.token != "" && store.token != undefined ? (
-				"You are logged in whit this token" + store.token
+				"You are logged in with this token" + store.token
 			) : (
 				<div>
 					<div className="mb-3 mx-auto col-6">
